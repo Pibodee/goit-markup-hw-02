@@ -138,10 +138,12 @@ body {
 .footer-stud {
   color: var(--additional-txt-cl);
 }
+/*added line-height*/
 
 .link {
   font-weight: 400;
   font-style: normal;
+  line-height: calc(24 / 14);
   text-decoration: none;
   color: var(--additional-txt-cl);
 }
@@ -152,9 +154,11 @@ body {
 
 .address-link {
   font-style: normal;
+  line-height: calc(24 / 14);
   color: var(--address-link-cl);
   text-decoration: none;
 }
+/*fin*/
 
 .address-link:hover,
 .address-link:focus {
