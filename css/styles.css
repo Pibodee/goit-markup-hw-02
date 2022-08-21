@@ -22,11 +22,10 @@
 body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
-  background-color: var(--main-bg-cl);
+  background-color: var(--additional-bg-cl);
 }
 
 .header {
-  background-color: var(--additional-bg-cl);
   font-weight: 500;
 }
 
@@ -102,6 +101,10 @@ body {
   color: var(--additional-txt-cl);
   background-color: var(--active-link-txt);
   cursor: pointer;
+}
+
+.section{
+  background-color: var(--main-bg-cl);
 }
 
 .list {
