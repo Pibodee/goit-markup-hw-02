@@ -21,8 +21,6 @@
 
 body {
   font-family: var(--main-font);
-  font-size: 14px;
-  letter-spacing: 0.03em;
   color: var(--main-txt-cl);
   background-color: var(--main-bg-cl);
 }
@@ -34,8 +32,8 @@ body {
 
 .logo {
   font-family: var(--secondary-font);
-  font-weight: 400;
   font-size: 26px;
+  letter-spacing: 0.03em;
   line-height: calc(31 / 26);
   color: var(--active-link-txt);
   text-decoration: none;
@@ -51,6 +49,7 @@ body {
 
 .nav-link {
   letter-spacing: 0.02em;
+  font-size: 14px;
   line-height: calc(16.41 / 14);
   text-decoration: none;
   color: currentColor;
@@ -70,6 +69,7 @@ body {
 
 .contact-link {
   letter-spacing: 0.02em;
+  font-size: 14px;
   text-decoration: none;
   line-height: calc(16.41 / 14);
   color: var(--secondary-txt-cl);
@@ -110,17 +110,21 @@ body {
 
 .section-title {
   font-size: 36px;
-  line-height: calc(42.19 / 36);
+  letter-spacing: 0.03em;
+  line-height: calc(42 / 36);
   text-align: center;
 }
 
 .section-subtitle {
-  line-height: calc(16.41 / 14);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: calc(16 / 14);
 }
 
 .text {
-  font-weight: 400;
-  line-height: calc(18.75 / 16);
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
 }
 
@@ -132,6 +136,22 @@ body {
   background-color: var(--additional-bg-cl);
 }
 
+.subject{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+}
+
+
+.desc{
+font-size: 16px;
+line-height: calc(19 / 16);
+letter-spacing: 0.03em;
+color: var(--secondary-txt-cl);
+}
+
 .footer {
   background-color: var(--hero-bg-cl);
 }
@@ -141,7 +161,6 @@ body {
 /*added line-height*/
 
 .link {
-  font-weight: 400;
   font-style: normal;
   line-height: calc(24 / 14);
   text-decoration: none;
@@ -199,4 +218,14 @@ body {
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
+
+.card-text{
+font-size: 16px;
+line-height: calc(30 / 16);
+letter-spacing: 0.03em;
+color: var(--secondary-txt-cl);
+}
 /*Checked all files with validator*/
+/*Changed numbers for integer*/
+/* Changed body properties */
+/* Added new classes for modifying text, changed font-sizes*/
